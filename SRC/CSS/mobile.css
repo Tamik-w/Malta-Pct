@@ -1,0 +1,123 @@
+@media (max-width: 740px) {
+
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/4.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    /* MAIN */
+
+    /* NAVBAR A */
+    .navbar a {
+
+        font-size: 13px;
+    }
+
+    @media (max-width: 663px) {
+        .navbar {
+            flex-direction: column;
+            
+        }
+
+        .navbar ul li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar a {
+            font-size: 13px;
+            padding-top: 12px;
+            text-align: center;
+        }
+        
+    }
+
+    /* NAVBAR A */
+
+    /* MAIN-TITLE */
+
+    @media (max-width: 663px) {
+
+            .content {
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-20%);
+                text-align: center;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            
+            .content-border {
+                width: 60%;
+            }
+            
+            .content h1 {
+                font-size: 20px;
+            }
+
+    }
+
+    /* MAIN-TITLE */
+
+    /* PARENTS */
+
+    @media (max-width: 663px) {
+
+        .parents-container {
+            margin-top: 20%;
+        }
+
+        .buttons {
+            margin: 0px 10px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .button {
+            width: 150px;
+            padding: 15px 0px;
+            text-align: center;
+            max-width: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #bc2626;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.5s;
+            font-size: 12px;
+        }
+
+        .button a {
+            border: 0;
+        }
+
+        button:hover {
+            background-color: #bc2626;
+        }
+
+        .leaders-title {
+            margin-top: 5%;
+            width: 100%;
+        }
+
+        .button {
+            margin: 5px 10px;
+            color: white;
+
+        }
+    }
+
+    /* PARENTS */
+
+    /* MAIN */
+
+}
