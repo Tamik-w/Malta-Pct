@@ -121,4 +121,15 @@ button:hover {
     color: white;
 }
 
+.copyright-container {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    
+}
+.copyright-text {
+    font-size: 10px;
+    opacity: 0.6;
+}
+
 /* MAIN */

@@ -1,0 +1,107 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+h1, h2, h3, p, span {
+    cursor: default;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+/* MAIN */
+
+.banner-logo {
+    padding-left: 10px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+    text-shadow: 1px 3px 5px black;
+}
+
+.navbar a {
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color: #bc2626;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #bc2626;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.title-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-text {
+    text-align: center;
+}
+
+/* MAIN */
+
+/* card-1-couple */
+
+.card-1-couple-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1-couple-1card {
+    width: 30%;
+    height: 400px;
+    background-color: white;
+}
+
+.card-1-couple-2card {
+    width: 30%;
+    height: 400px;
+    background-color: white;
+}
+
+/* card-1-couple */
